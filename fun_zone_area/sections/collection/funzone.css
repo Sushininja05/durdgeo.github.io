@@ -1,0 +1,34 @@
+body{padding:0px; margin:0px; background:green; color:red; font:24/48px Tahoma, sans-serif; }
+a:link{color:darkred; font: 24/48px}
+a:visited{color:darkred; font: 24/48px}
+a:hover{color:darkred; font: 24/48px} 
+a:active{color:darkred; font: 24/48px}
+div, p, ul, h2, h3, h4, img{padding:0px; margin:0px;}
+ul{list-style-type:none;}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    border-radius: 0px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: red; 
+    border-radius: 0px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: darkred; 
+}
+
+	body {
+			background-color: black;
+			background-image: url("https://durdgeo.neocities.org/fun_zone_area/sections/collection/images/collection%20bg.jpg");;
+			margin: 0;
+		}
