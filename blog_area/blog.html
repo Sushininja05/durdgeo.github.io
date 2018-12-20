@@ -1,110 +1,183 @@
 <head>
+
 <html xmlns="http://www.w3.org/1999/xhtml">
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+
 <title>Super Durdge-o Land Blog: The Blog Is Not Enough!</title>
+
 <link href="css/styles.css" rel="stylesheet" type="text/css">
-	<link rel="icon"
-      type="image/png"
-      href="https://sushininja05.github.io/art_area/art_images/D.png">
-      <meta content="Durdge-o's Personal Blog." name="description">
+	
+<link rel="icon"
+ type="image/png"
+ href="https://sushininja05.github.io/art_area/art_images/D.png">
+      
+<meta content="Durdge-o's Personal Blog." name="description">
   
 
-
 <script>
-    function loadContent(file, callback) {
-      var xhttp = new XMLHttpRequest();
-      xhttp.onreadystatechange = function() {
-        if (this.readyState == 4 && this.status == 200) {
+    
+   function loadContent(file, callback) 
+   {
+var xhttp = new XMLHttpRequest();
+      xhttp.onreadystatechange = function() 
+   {
+if (this.readyState == 4 && this.status == 200) {
           callback(xhttp.responseText);
-        }
-      };
-      xhttp.open("GET", file, true);
+ }
+ };
+ xhttp.open("GET", file, true);
       xhttp.send();
-    }
+}
 
-    function loadPage(id, n) {
+    
+
+   function loadPage(id, n) {
       loadContent("blog/"+id+".html", (content) => {
         document.getElementById("main").innerHTML = content;
-        document.getElementById("last").onclick = () => loadPage(1,n);
+        
+   document.getElementById("last").onclick = () => loadPage(1,n);
         document.getElementById("prev").onclick = () => loadPage(id - 1,n);
-        document.getElementById("next").onclick = () => loadPage(id + 1,n);
+        
+   document.getElementById("next").onclick = () => loadPage(id + 1,n);
         document.getElementById("first").onclick = () => loadPage(n,n);
       });
     }
 
-    loadContent("blog/n.txt", (n) => {loadPage(n,n)});
-  </script>
+    
+   loadContent("blog/n.txt", (n) => {loadPage(n,n)});
+  
 
+</script>
 
+<style>
+		
+   body {
+color: red;
+ background-color: black;
+ background-image: url("https://sushininja05.github.io/images/bg.gif");;
+			
+         font-size: 20px;
+ margin: 0;
+}
+		
+   article {
+width: 480px;
+ padding: 20px;
+ margin: auto;
+ background-color: rgba(51,0,0,.99);
+}
+	
+	
+   h1, #htmldog {
+text-align: center;
+}
+		
 
+   a:link {
+color: red;
+ }
+		
+   a:visited {
+color: red;
+}
+		
+   a:hover {
+color: brightred;
+}
+	
+</style>
 
-	<style>
-		body {
-			color: red;
-			background-color: black;
-			background-image: url("https://sushininja05.github.io/images/bg.gif");;
-			font-size: 20px;
-			margin: 0;
-		}
-		article {
-			width: 480px;
-			padding: 20px;
-			margin: auto;
-			background-color: rgba(51,0,0,.99);
-		}
-		h1, #htmldog {
-			text-align: center;
-		}
-		a:link {
-			color: red;
-		}
-		a:visited {
-			color: red;
-		}
-		a:hover {
-			color: brightred;
-		}
-	</style>
 </head>
-
-
-
-
-
 <body>
+
 <center>
+
+
 <table width="600" border="0" cellpadding="0" cellspacing="0" class="frame">
-  <tr>
-    <td width="601" height="130" style="padding-bottom:2px"><img src="images/header.png" width="600" height="200" /></td>
-  </tr>
-  <tr>
-    <td align="left" valign="top" bgcolor="black" style="padding:10px"><table width="100%" border="0" cellspacing="0" cellpadding="0">
-      <tr>
-        <td  style="padding:5px; padding-top:0px"><table width="100%" border="0" cellspacing="1" cellpadding="0">
+  
+
+<tr>
+    
+<td width="601" height="130" style="padding-bottom:2px">
+<img src="images/header.png" width="600" height="200" />
+</td>
+  
+
+</tr>
+  
+<tr>
+    
+<td align="left" valign="top" bgcolor="black" style="padding:10px">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+      
+<tr>
+        
+
+<td  style="padding:5px; padding-top:0px"><table width="100%" border="0" cellspacing="1" cellpadding="0">
+
+
 <!-- WRITING SECTION -->
-            <tr>
+            
+<tr>
             
 
 <!-- ENTRY LOCATOR MACHIENE -->
-              <td align="center" valign="middle" bgcolor="darkred" style="height:20px"><a id="last" href="#">First</a></td>
-              <td align="center" valign="middle" bgcolor="darkred" style="height:20px"><a id="prev" href="#">Previous</a></td>
-              <td align="center" valign="middle" bgcolor="darkred" style="height:20px"><a href="https://sushininja05.github.io/">Back Home</a></td>
-              <td align="center" valign="middle" bgcolor="darkred" style="height:20px"><a id="next" href="#">Next</a></td>
-              <td align="center" valign="middle" bgcolor="darkred" style="height:20px"><a id="first" href="#">Latest</a></td>
-            </tr>
+              
+
+<td align="center" valign="middle" bgcolor="darkred" style="height:20px">
+<a id="last" href="#">First</a></td>
+              
+
+<td align="center" valign="middle" bgcolor="darkred" style="height:20px">
+<a id="prev" href="#">Previous</a></td>
+              
+
+<td align="center" valign="middle" bgcolor="darkred" style="height:20px">
+<a href="https://sushininja05.github.io/">Back Home</a></td>
+              
+
+<td align="center" valign="middle" bgcolor="darkred" style="height:20px">
+<a id="next" href="#">Next</a></td>
+              
+
+<td align="center" valign="middle" bgcolor="darkred" style="height:20px">
+<a id="first" href="#">Latest</a></td>
             
-    <div id="main">Please wait for the webzone highway to deliever your content...</div>
+</tr>
+            
+    
+
+<div id="main">Please wait for the webzone highway to deliever your content...</div>
+
 
 <!-- END OF WRITING SECTION-->
-      </table></td>
-  </tr>
-  <tr>
-    <td align="center" valign="middle" bgcolor="darkred" class="text3" style="padding:20px">
-  </div>
-</div>
-""Copyright &copy; DURDGE-O MEDIA""<br /> If you aren't in the mood to read some retard's blog then I'd suggest <a href="https://sushininja05.github.io" class="b">clicking here to leave.</a></td>
-  </tr>
+      
+
 </table>
+</td>
+  
+</tr>
+  
+
+<tr>
+    
+<td align="center" valign="middle" bgcolor="darkred" class="text3" style="padding:20px">
+  
+</div>
+
+</div>
+
+""Copyright &copy; DURDGE-O MEDIA""
+<br /> 
+If you aren't in the mood to read some retard's blog then I'd suggest <a href="https://sushininja05.github.io" class="b">clicking here to leave.</a>
+</td>
+  
+</tr>
+
+</table>
+
 </body>
+
 </center>
+
 </html>
