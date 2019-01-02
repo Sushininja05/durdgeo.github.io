@@ -25,7 +25,10 @@ var fortunelist=[
 "hahahah egg",
 "i'm playing garage in garage with hideo kojima my favorite mascot",	
 "https://gudstuffzinc.us/ heehehoo",	
-"my best friend said he was SOOO HEALTHY and was braggin' that he lives to 100 years old, he had a heart attack after that REALLY COOL BRAG",
+"poke through your eYE to touch YOUR bRAIN",
+"JAMP JAMP Jamspg.... SLIDE Sldigosokg LSDIkge",
+"In GRAND you must JUMP over the WALL, very difficult...",
+"GANDBITMITNOLGO",
 ]; 
 			
 var fortune=fortunelist[Math.floor(Math.random()*fortunelist.length)]; 
