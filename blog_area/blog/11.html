@@ -1,0 +1,110 @@
+<div>
+  <tr>
+    <td align="left" valign="top" bgcolor="black" style="padding:10px"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td  style="padding:5px; padding-top:0px"><table width="100%" border="0" cellspacing="1" cellpadding="0">
+            <tr>
+            <!-- DATE THE ENTRY WAS MADE + THE BLOG ENTRY TITLE -->
+              <td colspan="3" align="center" valign="middle" bgcolor="darkred" class="text1" style="height:20px">After The Demo:Part 1 - Enemy design!</td>
+              <td colspan="3" align="center" valign="middle" bgcolor="darkred" class="text5" style="height:20px"><span class="text1">June 28, 2019</span></td>
+            </tr>
+        </table></td>
+      </tr>
+    </table>
+    <table width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="black">
+      <tr>
+        <td width="100%" align="left" valign="top" bgcolor="black" style="padding:5px"><table width="100%" border="0" cellpadding="0" cellspacing="1" bgcolor="black">
+          <tr>
+            <td width="28%" bgcolor="darkred"  style="padding:5px"><span class="text2" style="padding:5px">Related Links</span></td>
+            <td width="72%" bgcolor="darkred" style="padding:5px"><span class="text2" style="padding:5px">Blog Entry</span></td>
+          </tr>
+          <tr>
+          <!-- RELATED LINKS AREA, PUT THE LINKS IN THE SPACES WHERE THE LINKS GO N' SHIT. -->
+            <td align="left" bgcolor="darkred" valign="top" style="padding:5px"><p>
+  &bull; <a href="https://www.youtube.com/playlist?list=PLAEb9325PhRqEmCvgMK3aCKVVsJ6w0Ba-" class="a">Gamit Developement YT Playlist</a><br />
+  &bull; <a href="https://mega.nz/#!FpcCTQBB!V15sBrYi8O_8-IMoZ1NfvQe_SIovHMRuzlUl5PZS_Dc" class="a">Old Gamit Demo DL</a><br />
+  <br />
+  <br />
+            </p>
+              </td>
+            <td align="left" valign="top" bgcolor="black" style="padding:5px"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+              <!-- RELATED IMAGE GOES HERE, RIGHT UP ONS THAT IMAGES/IMG.THING.. -->
+                <td width="33%" height="115" align="left" valign="top"><img src="images/level1showoff.PNG" width="200" height="150" /></td>
+                <td width="67%" rowspan="2" align="left" valign="top" style="padding:5px"><span class="text4">Hey! It's me, Durdge-o.</span>
+                I'm still working on Gamit, and I've recently fixed many things on my website.<br> 
+				So I'd figured I should keep up to date on the game.<br />
+                  <br />
+                Not only that, but talk about why despite the engine being 100%, the end of the project is ever so slipping away from me.</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top"><span class="text5">Level 1 Screenshot</span></td>
+              </tr>
+            </table></td>
+          </tr>
+          
+        </table></td>
+        </tr>
+    </table>
+      <table width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="black">
+        <tr>
+          <td width="100%" align="left" valign="top" bgcolor="black" style="padding:1px"><table width="100%" border="0" cellspacing="1" cellpadding="0">
+            <tr>
+              <td colspan="2" align="left" valign="top" style="padding:5px"><span class="text4">Since the last blog entry,</span> 
+              I've made a demo for the game, subsequently broke the enemy system and re-made it from scratch, optimized the engine & fixed weapons,
+			  added content to the literal in-game instruction booklet, and changed many things about the game in general.<br />
+                <br /> 
+                That's a whole hell of a lot to cover, so I'll take it one at a time.<br>
+                <br>
+				<h2>1. The Enemies</h2>
+				<br>
+				The enemies were bug-ridden! Full of mistakes, issues with programming, inconsistencies and just overall broken.<br>
+				<br>
+                The enemies were awfully optimized, using excess objects and having excess scripting for each enemy type.
+				Every enemy type used the same object creation/deletion/tagging system, but instead of having one function for all of them,
+				they rely on an unique function for each of their setup. For example: Enemy A could be functionally identical to Enemy B but
+				due to different animations, a different behavior, or an adjustment in health. They would have to be seperated and given their
+				own functions and loops in order to create the objects responsible for the Enemy that are unrelated to the base object.<br>
+				<br>
+				The old system worked like this: 1. Upon the start of the level, it would take count for every Enemy and run functions for each one.
+				This creates the objects, assigns the values, and appends each object to each individual base object.
+				2. If object count for each individual object type appended to the base object exceeds base object count, objects are destroied. This
+				is the start of the problematic behavior, because it doesn't know what specific object to destroy upon overflow. So it'll take away some
+				random enemy's objects, now there is a lack of objects for one enemy. It realizes this and allocates another enemy's objects to that one,
+				with mixed effects due to how fragile the nature of moving multiple objects around, often skipping enemies or giving a single enemy 
+				multiple sets of objects.<br>
+				<br>
+				The solution was simple, I had to start over 100%, scrap all of the enemy work I had done up to that point besides art and concepts.
+				This was awful! I had to start over with no refrense and no former systems, it also couldn't borrow anything from my previous attempt.
+				I was pretty bummed honestly, but I ended up finding an example for scalable line-of-sight enemies similar to mine. It took me a 
+				day or two to grasp the concepts, understand the scripting, and put it into practice using art from my own enemies. After I finished one 
+				enemy, I sat down and re-made every single enemy using the new system and stress tested it every single step of the way to ensure I didn't 
+				break or misuse the example in any way. This took me around 5 days.<br>
+				<br>
+				But it's not all doom and gloom! Sure it was a huge setback and most enemies are functionally identical, but in the process I caught many
+				small errors that made the game way better to play without.<br>
+				<br>
+				For example: Non-melee enemies don't do damage upon touching their hitbox, buffing melee weapons and removing the danger from the Skoot-Board.
+				I turned two risky playstyles into playstyles suitable for more casual play, and also making them more suitable for speedrunners. (Assuming 
+				any speedrunners would play this game.)<br>
+				<br>
+				<img src="images/gamithitbox.gif" width="398" height="298"><br>
+				<br>
+				Another BIG example: Pre-set directions & reliable behaviors! I know it seems obvious, like what game isn't super reliable? But if you've 
+				played the Demo you'll notice that approaching any enemy required you to camp corners and bullshit the game. This was a huge thing in Sock-Man 
+				but now it's practically the only way to play. So I had to make the enemies more reliable, predictable, consistent, but not remove the essence
+				of engaging enemies. (If they're too predictable it curves the need to be good at all into the floor.) So giving myself the flexibility to 
+				force pre-set directions within enemies on a individual basis allows for wackier level design and makes my life a whole lot easier. The behaviors 
+				within enemies have also been simplified, changing direction off a wall will now yield consistent results instead of getting bullshit'd by some 
+				enemy's wall bounce giving them the perfect line of sight of your next attack. Which obviously stifles progress and is annoying to deal with.<br>
+				<br>
+				The next entry will tackle Gamit & his weapons, and the changes that occured. See you next time.<br>
+				<td>
+
+            </tr>
+
+          </table></td>
+        </tr>
+      </table></td>
+  </tr>
+</div>
