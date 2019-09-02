@@ -1,0 +1,36 @@
+body{padding:0px; margin:0px; background:black; color:white; font:24px/48px Tahoma, sans-serif; }
+a:link{color:gray; font: 24/48px}
+a:visited{color:gray; font: 24/48px}
+a:hover{color:gray; font: 24/48px} 
+a:active{color:gray; font: 24/48px}
+div, p, ul, h2, h3, h4, img{padding:0px; margin:0px;}
+ul{list-style-type:none;}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: black;
+    background: black;
+    border-radius: 0px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: white; 
+    border-radius: 0px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: gray; 
+}
+
+	body {
+			background-color: black;
+			background-image: url("https://sushininja05.github.io/game_area/img/background.png");;
+			margin: 0;
+		}

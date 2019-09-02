@@ -1,8 +1,8 @@
-body{padding:0px; margin:0px; background:black; color:red; font:24px/48px Tahoma, sans-serif; }
-a:link{color:darkred; font: 24/48px}
-a:visited{color:darkred; font: 24/48px}
-a:hover{color:darkred; font: 24/48px} 
-a:active{color:darkred; font: 24/48px}
+body{padding:0px; margin:0px; background:black; color:white; font:24px/48px Tahoma, sans-serif; }
+a:link{color:gray; font: 24/48px}
+a:visited{color:gray; font: 24/48px}
+a:hover{color:gray; font: 24/48px} 
+a:active{color:gray; font: 24/48px}
 div, p, ul, h2, h3, h4, img{padding:0px; margin:0px;}
 ul{list-style-type:none;}
 
@@ -20,13 +20,13 @@ ul{list-style-type:none;}
  
 /* Handle */
 ::-webkit-scrollbar-thumb {
-    background: red; 
+    background: white; 
     border-radius: 0px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-    background: darkred; 
+    background: gray; 
 }
 
 	body {

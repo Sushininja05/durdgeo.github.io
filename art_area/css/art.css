@@ -46,7 +46,8 @@ body {
     position: absolute;
     bottom: 15px;
     left: 15px;
-    color: red;
+    color: black;
+	opacity: 0.2;
     font-size: 28px;
     font-weight: bold;
 }
@@ -54,10 +55,10 @@ body {
     position: absolute;
     bottom: 15px;
     left: 15px;
-    color: red;
+    color: black;
 	opacity: 1.0;
     font-size: 28px;
-    font-weight: bold;
+    font-weight: bolder;
 }
 
 /* Closable button inside the expanded image */
@@ -65,16 +66,15 @@ body {
     position: absolute;
     top: 10px;
     right: 15px;
-    color: red;
+    color: white;
     font-size: 35px;
     cursor: pointer;
 }
 
 /* Background Stuff */
 		body {
-			color: #FF0000;
+			color: white;
 			background-color: black;
-			background-image: url("https://durdgeo.neocities.org/images/bg.gif");;
 			font-size: 20px;
 			margin: 0;
 		}
@@ -82,13 +82,13 @@ body {
 			width: 1000px;
 			padding: 10px;
 			margin: auto;
-			background-color: rgba(51,0,0,.99);
+			background-color: rgba(0,0,0,.99);
 		}
 		h1, #htmldog {
 			text-align: center;
 		}
 		a {
-			color: darkred;
+			color: gray;
 		}
 		::-webkit-scrollbar {
     width: 5px;
@@ -102,11 +102,11 @@ body {
  
     /* Handle */
     ::-webkit-scrollbar-thumb {
-    background: red; 
+    background: white; 
     border-radius: 10px;
     }
 
     /* Handle on hover */
     ::-webkit-scrollbar-thumb:hover {
-    background: darkred; 
+    background: gray; 
     }

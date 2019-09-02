@@ -1,11 +1,11 @@
 /* CSS Document */
-body{padding:0px; margin:0px; background:black; color:red; font:10px/14px Tahoma, sans-serif; }
+body{padding:0px; margin:0px; background:black; color:white; font:10px/14px Tahoma, sans-serif; }
 div, p, ul, h2, h3, h4, img{padding:0px; margin:0px;}
 ul{list-style-type:none;}
 
 .clear {clear: both; margin: 0px}
 
-p span.headline{font:12px/14px "Times New Roman", Times, serif; color:#F25B63; font-weight:normal;}
+p span.headline{font:12px/14px "Times New Roman", Times, serif; color:white; font-weight:normal;}
 
 /* HEADER */
 
@@ -52,8 +52,8 @@ p span.headline{font:12px/14px "Times New Roman", Times, serif; color:#F25B63; f
 
 #welcome ul{margin-top:10px;}
 #welcome li{background:url(../images/arrow.gif) 13px 2px no-repeat; padding-left:30px; height:24px}
-#welcome li a{font:10px/14px Tahoma, sans-serif; color:red; font-weight:normal; text-decoration:underline}
-#welcome li a:hover{color:darkred; font-weight:normal; text-decoration:none; background:black;}
+#welcome li a{font:10px/14px Tahoma, sans-serif; color:white; font-weight:normal; text-decoration:underline}
+#welcome li a:hover{color:white; font-weight:normal; text-decoration:none; background:black;}
 
 /* BOTTOMLINE */
 
@@ -72,9 +72,9 @@ p span.headline{font:12px/14px "Times New Roman", Times, serif; color:#F25B63; f
 
 /* FOOTER */
 #footer{width:775px; height:89px; position:relative; background:black; margin: 0 auto;  clear:both}
-#footer p{padding: 30px 0 0 0; font:10px/16px Tahoma, Arial, Helvetica, sans-serif; font-weight:normal; text-align:center; color:red;}
-#footer p a{font:10px/16px Tahoma, Arial, Helvetica, sans-serif; font-weight:normal; color:red; text-decoration:none; padding: 0 5px }
-#footer p a:hover{text-decoration:none; background:black; color:darkred}
+#footer p{padding: 30px 0 0 0; font:10px/16px Tahoma, Arial, Helvetica, sans-serif; font-weight:normal; text-align:center; color:white;}
+#footer p a{font:10px/16px Tahoma, Arial, Helvetica, sans-serif; font-weight:normal; color:white; text-decoration:none; padding: 0 5px }
+#footer p a:hover{text-decoration:none; background:black; color:white}
 
 /* NEWS */
 #news{ border-style: double; border-color: black; border-width: 0px;}
@@ -95,11 +95,11 @@ iframe.news { border-style: double; border-color: black; border-width: 0px;}
  
 /* Handle */
 ::-webkit-scrollbar-thumb {
-    background: red; 
+    background: white; 
     border-radius: 0px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-    background: darkred; 
+    background: white; 
 }
