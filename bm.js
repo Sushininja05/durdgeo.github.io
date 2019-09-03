@@ -54,8 +54,6 @@ var fortunelist=[
 
 "shut up idiot yous smlel",
 
-"add /misc_area/superextradoubletriplefripplesecretpage.html",
-
 "owned",
 
 "Speedos is a gay retard",
