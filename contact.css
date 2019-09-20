@@ -12,7 +12,7 @@ p span.headline{font:12px/14px "Times New Roman", Times, serif; color:white; fon
 #header{width:775px; height:260px; background:url(images/b_top_contact.jpg) 0 0 no-repeat; position:relative; margin: 0 auto;}
 #logo{position:absolute; top:15px; left:386px}
 
-#header ul{height:19px; position:absolute; top:170px; left:358px; width:415px}
+#header ul{height:19px; position:absolute; top:170px; left:460px; width:415px}
 #header ul li{float:left; margin-right:7px}
 
 #header ul li.home a{width:40px; height:17px; display:block; background:url(images/btn_home.gif) 0 0 no-repeat; text-indent:-20000px; }
@@ -40,9 +40,11 @@ p span.headline{font:12px/14px "Times New Roman", Times, serif; color:white; fon
 
 #about{width:200px; position:relative; float:left; display:inline; margin:0 12px 50px 17px;}
 #about h2{height:49px; background:url(images/h_about.gif) 0 0 no-repeat; position:relative; clear:both; margin-bottom:13px}
-#about p{padding-left:2px;}
+#about p{padding-left:2px; font:18px Tahoma, sans-serif;}
 #about p span{margin-bottom:20px; display:block;}
 #about img{padding-left:2px; margin-top:15px;}
+#about a{padding-left:2px; color:gray; font:18px Tahoma, sans-serif;}
+#about a:hover{margin-bottom:20px; display:block; color:gray; font:18px Tahoma, sans-serif;}
 
 #contact{width:370px; position:relative; float:left; display:inline; margin:0 24px 50px 30px;}
 #contact img{float:left;  position:relative; margin-bottom:7px}
@@ -59,26 +61,11 @@ p span.headline{font:12px/14px "Times New Roman", Times, serif; color:white; fon
 
 #bottomline{width:775px; position:relative; margin: 0 auto;}
 
-/* NEW */
-
-#new{width:775px; height:116px; position:relative; background:url(images/b_new.jpg) 0 0 repeat; margin: 0 auto; clear:both}
-#new h2{height:50px; width:145px; background:url(images/h_new.gif) 0 0 no-repeat; position:relative; float:left; display:inline; margin:10px 23px 0 68px;}
-.newgame{width:225px; float:left; margin:7px 30px 0 0; display:block}
-.newgame img{float:left; border:#404036 2px solid; margin-right:15px; }
-.newgame p {font-weight:bolder; color:black; margin-top:5px}
-
-#new a{font:14px Tahoma, sans-serif; color:black; font-weight:bolder; text-decoration:none }
-#new a:hover{background:black; color:white; border-bottom: #cfa779 1px dotted; text-decoration:none }
-
 /* FOOTER */
 #footer{width:775px; height:89px; position:relative; background:white; margin: 0 auto;  clear:both}
 #footer p{padding: 30px 0 0 0; font:10px/16px Tahoma, Arial, Helvetica, sans-serif; font-weight:normal; text-align:center; color:black;}
 #footer p a{font:10px/16px Tahoma, Arial, Helvetica, sans-serif; font-weight:normal; color:black; text-decoration:none; padding: 0 5px }
 #footer p a:hover{text-decoration:none; background:black; color:white}
-
-/* NEWS */
-#news{ border-style: double; border-color: black; border-width: 0px;}
-iframe.news { border-style: double; border-color: black; border-width: 0px;}
 
 /* SCROLLBAR */
 /* width */
