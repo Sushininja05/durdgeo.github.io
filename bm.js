@@ -67,6 +67,18 @@ var wisdomlist=[
 "one afternoon I fell asleep in my chair, I dreamt of a dull concrete world full of puppet people, I kept pushing past all of them to try and catch some person, I never could.",
 
 "yeah dunno",
+
+"chef--- face revealll??? I HAVE to confrim this.",
+
+"do u wanna be my friend or not?-- oh i'm sorry.",
+
+"can't even handle a kilogram of GRAPE!",
+
+"is it ok if I bring my ds to my mom's funeral in case I get bored?",
+
+"large man wear shirt, it's him the shirt man, that's him the SHIRT man",
+
+"shit up, fuck down, idiot",
 ]; 
 			
 var wisdom=wisdomlist[Math.floor(Math.random()*wisdomlist.length)]; 
