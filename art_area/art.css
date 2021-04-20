@@ -1,37 +1,27 @@
-/* Font */
-body {
-    margin: 0;
-    font-family: Arial;
-}
-
-/* The grid: Four equal columns that floats next to each other */
+/* --Image Grid-- */
 .column {
     float: right;
     width: 100px;
     height: 100px;
     padding: 2px;
 }
-
-/* Style the images inside the grid */
+/* Images In Grid */
 .column img {
     opacity: 0.3;
     width: 100px;
     height: 100px;	
     cursor: pointer; 
 }
-
 .column img:hover {
     opacity: 0.9;
 }
-
-/* Clear floats after the columns */
+/* Clear floats after Grid */
 .row:after {
     content: "";
     display: table;
     clear: both;
 	position: relative;
 }
-
 /* The expanding image container */
 .container {
 	content: "";
@@ -39,9 +29,8 @@ body {
     display: none;
 	clear:both;
 }
-
 /* Expanding image text */
-#imgtext {
+#imgname {
     position: relative;
     bottom: 0px;
     left: 0px;
@@ -50,7 +39,15 @@ body {
     font-size: 28px;
     font-weight: bold;
 }
-
+#imgdesc {
+    position: relative;
+    bottom: 0px;
+    left: 0px;
+    color: white;
+	opacity: 1.0;
+    font-size: 18px;
+    font-weight: normal;
+}
 /* Closable button inside the expanded image */
 .closebtn {
     position: absolute;
@@ -67,31 +64,30 @@ body {
 		background-color: black;
 		font-size: 20px;
 		margin: 0;
+		font-family: Arial;
 	}
 	h1{
 		text-align: center;
+	}
+	h2{
+		text-align: right;
 	}
 	a {
 		color: gray;
 	}
 
-/* Track */
+/* Scroll-bar Specifics */
 	::-webkit-scrollbar {
     width: 5px;
     }
-	
     ::-webkit-scrollbar-track {
     box-shadow: inset 0 0 5px black; 
     border-radius: 10px;
     }
- 
-/* Handle */
     ::-webkit-scrollbar-thumb {
     background: white; 
     border-radius: 10px;
     }
-
-/* Handle on hover */
     ::-webkit-scrollbar-thumb:hover {
     background: gray; 
     }

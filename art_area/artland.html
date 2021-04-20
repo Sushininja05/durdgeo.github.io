@@ -1,64 +1,61 @@
-<!DOCTYPE html>
 <html>
-  <head>
-  
-	<meta charset="utf-8">
-	<title>Super Durdge-o Land: Art Emporium!</title>
-	<link rel="icon"
-      type="image/png"
-      href="https://sushininja05.github.io/art_area/images/D.png">
-  <link href="css/art.css" rel="stylesheet" type="text/css" />
-      <meta content="Art Made By Durdge-o" name="description">
-      
-    <script>
+<head>
+<meta charset="utf-8">
+<title>Super Durdge-o Land: Art Emporium!</title>
+<link rel="icon"
+type="image/png"
+href="https://sushininja05.github.io/art_area/images/D.png">
+<link href="art.css" rel="stylesheet" type="text/css" />
+<meta content="Art made by yours truly." name="description">
+<script>
     function Artistry(imgs) {
     var expandImg = document.getElementById("expandedImg");
-    var imgText = document.getElementById("imgtext");
+    var imgName = document.getElementById("imgname");
+	var imgDesc = document.getElementById("imgdesc");
     expandImg.src = imgs.src;
-    imgText.innerHTML = imgs.alt;
+    imgName.innerHTML = imgs.alt;
+	imgDesc.innerHTML = imgs.id;
     expandImg.parentElement.style.display = "block";
     }
-    </script>
-	
-<style>
-   body {
- background-color: black;;
-}
-</style>
-	
+
+    function secret(imgs) {
+    window.location="../misc_area/password.html";
+    }
+</script>
 </head>
 <body>
 <article>
 
 <div style="text-align:center">
-  <img src="images/header.png" >
-  <h1>Durdge-o Art Emporium:</h1>
-  <a href="../index.html">I'm not interested, goin' back.</a>
+  <img src="images/header.png" ><br><br>
+  <a href="../index.html">Nah, not interested, back to main.</a>
   <br>
-  <p>Art Area full of my creations,<br>
-     click on the image to expand it and check it out:</p>
-  <p>High Res versions if you right-click and open image in another window.</p>
+  <p>Art Area full of my creations, click on an image to expand it and check it out.</p>
 </div>
 
 <!-- The Art Container -->
 <div class="container">
   <br>
   <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
-  <img id="expandedImg" style="max-width: 800px;">
-  <div id="imgtext"></div>
+  <img id="expandedImg" style="max-width: 800px;"><br><br>
+  <div id="imgname" style="max-width: 800px;"></div>
+  <div id="imgdesc" style="max-width: 800px;"></div>
 </div>
 
 <!-- The Art Images -->
 <div class="row">
+<h2>Old Era:</h2>
   <div class="column">
     <img src="art_images/westario.png" style="width:100%" onclick="Artistry(this);"
-	alt="Wes Flowers Mario<br><br>Created by merging some SM64<br>art and a picture of Wes Flowers,<br>turned out really good.">
+	alt="Wes Flowers Mario" id="<br>Created by merging some SM64 art and a picture of Wes Flowers, turned out really good.">
   </div>
   <div class="column">
-    <img src="art_images/tv.png" alt="Teevo / Tee-Vee / TV" style="width:100%" onclick="Artistry(this);">
+    <img src="art_images/tv.png" style="width:100%" onclick="Artistry(this);"
+	alt="Teevo / Tee-Vee / TV" id="<br>Very old TV drawn for a mini-magazine involving some other creators.<br>The magazine is most likely lost, but this isn't!.">
   </div>
   <div class="column">
-    <img src="art_images/Speedos%20Mastered.png" alt="Speedos Mastered" style="width:100%" onclick="Artistry(this);">
+    <img src="art_images/frinky.png" style="width:100%" onclick="Artistry(this);"
+	alt="Frinky: Explainable" id="I don't think I'll explain it."> 
   </div>
   <div class="column">
     <img src="art_images/smilepleasefinal.jpg" alt="Smile Please!" style="width:100%" onclick="Artistry(this);">
@@ -73,34 +70,42 @@
     <img src="art_images/gift.jpg" alt="Gift 4 U" style="width:100%" onclick="Artistry(this);">
   </div>
   <div class="column">
-    <img src="art_images/fraggot%20flag.jpg" alt="Fraggot Flag / National Flag" style="width:100%" onclick="Artistry(this);">
+    <img src="art_images/fraggot%20flag.jpg" style="width:100%" onclick="Artistry(this);"
+	alt="National Flag" id="This was made for Fraggot, on some discord in 2018-ish.<br>I don't quite remember why it's like this, but it is.">
   </div>
 </div>
 
 <div class="row">
   <div class="column">
-    <img src="art_images/D.png" alt="The Almighty D" style="width:100%" onclick="Artistry(this);">
+    <img src="art_images/D.png" style="width:100%" onclick="Artistry(this);"
+	alt="The Almighty D" id="<br>This D has extreme importance.<br>Hehe."> 
   </div>
   <div class="column">
-    <img src="art_images/boxathonalternative.png" alt="Box-Man" style="width:100%" onclick="Artistry(this);">
+    <img src="art_images/boxathonalternative.png" style="width:100%" onclick="Artistry(this);"
+	alt="Box-Man" id="<br>Actually my very very old mascot from 2018.<br>I never did anything with this guy, but I like his design.">
   </div>
   <div class="column">
-    <img src="art_images/DAVIDPFP%202.jpg" alt="David The Frikr profile pikr" style="width:100%" onclick="Artistry(this);">
+    <img src="art_images/DAVIDPFP%202.jpg" style="width:100%" onclick="Artistry(this);"
+	alt="David The Frikr pfp" id="<br>Made for my good friend Dave, it's a triple-layer in-joke.">
   </div>
   <div class="column">
-    <img src="art_images/Bombs.png" alt="Grandman Bomb Minigame Sprites" style="width:100%" onclick="Artistry(this);"> 
+    <img src="art_images/Bombs.png" style="width:100%" onclick="Artistry(this);"
+	alt="Grandman Bomb Minigame Sprites" id="<br>The three bombs in Grandman's Bomb Juggling mini-game."> 
   </div>
   <div class="column">
     <img src="art_images/Herizon.png" alt="Herizon Logo For Someone's Project" style="width:100%" onclick="Artistry(this);"> 
   </div>
   <div class="column">
-    <img src="art_images/Houses.png" alt="Grandman Unused House Sprites" style="width:100%" onclick="Artistry(this);"> 
+    <img src="art_images/Houses.png" style="width:100%" onclick="Artistry(this);"
+	alt="Grandman Unused House Sprites" id="<br>Originally for the 8th(?) mini-game in Grandman, cut due to me just wanting to be done with the game."> 
   </div>
   <div class="column">
-    <img src="art_images/Johnson%20Jogging.png" alt="Grandman Button Minigame Sprites" style="width:100%" onclick="Artistry(this);"> 
+    <img src="art_images/Johnson%20Jogging.png" style="width:100%" onclick="Artistry(this);"
+	alt="Grandman Button Minigame Sprites" id="<br>Originally an infinite runner, turned into a button mashing game out of laziness."> 
   </div>
   <div class="column">
-    <img src="art_images/Nice%20Man.png" alt="Grandman Nice Man Sprites" style="width:100%" onclick="Artistry(this);"> 
+    <img src="art_images/Nice%20Man.png" style="width:100%" onclick="Artistry(this);"
+	alt="Grandman Nice Man Sprites" id="<br>The final(?) mini-game in Grnadman, revolving around a guy that says random crap overtime.<br>Later became the inspiration for Bush Man."> 
   </div>
 </div>
 
@@ -112,10 +117,12 @@
     <img src="art_images/Pause%20Menu.png" alt="Grandman Pause Menu Sprites" style="width:100%" onclick="Artistry(this);"> 
   </div>
   <div class="column">
-    <img src="art_images/smoking%20man.png" alt="Smoking Man, No Shades." style="width:100%" onclick="Artistry(this);"> 
+    <img src="art_images/smoking%20man.png" style="width:100%" onclick="Artistry(this);"
+	alt="Smoking Man, No Shades." id="<br>The smoking man, a temporary pfp."> 
   </div>
   <div class="column">
-    <img src="art_images/smoke%20shades%20man.png" alt="Smoking Man, Yes Shades." style="width:100%" onclick="Artistry(this);"> 
+    <img src="art_images/smoke%20shades%20man.png" style="width:100%" onclick="Artistry(this);"
+	alt="Smoking Man, Yes Shades." id="<br>The smoking man, a temporary pfp.<br>With shades."> 
   </div>
   <div class="column">
     <img src="art_images/Texan%20Invasion.png" alt="Texan Invasion" style="width:100%" onclick="Artistry(this);"> 
@@ -133,7 +140,8 @@
   
 <div class="row">
   <div class="column">
-    <img src="art_images/smoke%20headband%20shades%20man.png" alt="Smoking Man, Shades & Band." style="width:100%" onclick="Artistry(this);"> 
+    <img src="art_images/smoke%20headband%20shades%20man.png" style="width:100%" onclick="Artistry(this);"
+	alt="Smoking Man, Shades & Band." id="<br>The smoking man, a temporary pfp.<br>With shades and a bandana.<br>This one never got used, MGS3 was really damn good though."> 
   </div>
   <div class="column">
     <img src="art_images/Town%20REMOVAL%20Session.png" alt="Town REMOVAL Session" style="width:100%" onclick="Artistry(this);"> 
@@ -148,7 +156,8 @@
     <img src="art_images/Obama.png" alt="Obama" style="width:100%" onclick="Artistry(this);"> 
   </div>
   <div class="column">
-    <img src="art_images/pyro%20gay%20lol%20real.png" alt="Pyro Vision's Profile Picture" style="width:100%" onclick="Artistry(this);"> 
+    <img src="art_images/pyro%20gay%20lol%20real.png" style="width:100%" onclick="Artistry(this);"
+	alt="Pyro Vision's Profile Picture" id="<br>Made for an old friend, Pyro Vision, a lad I played TF2 with for awhile."> 
   </div>
   <div class="column">
     <img src="art_images/Marco.png" alt="Marcus" style="width:100%" onclick="Artistry(this);"> 
@@ -160,179 +169,198 @@
 
 <div class="row">
   <div class="column">
-    <img src="art_images/Gamit%20Lineup.png" alt="Gamit Lineup" style="width:100%" onclick="Artistry(this);"> 
-  </div>
-  <div class="column">
-    <img src="art_images/day1.png" alt="Day 1" style="width:100%" onclick="Artistry(this);"> 
-  </div>
-  <div class="column">
-    <img src="art_images/day2.png" alt="Day 2" style="width:100%" onclick="Artistry(this);"> 
-  </div>
-  <div class="column">
-    <img src="art_images/day3.png" alt="Day 3" style="width:100%" onclick="Artistry(this);"> 
-  </div>
-  <div class="column">
-    <img src="art_images/day4.png" alt="Day 4" style="width:100%" onclick="Artistry(this);"> 
-  </div>
-  <div class="column">
-    <img src="art_images/day5a.png" alt="Day 5A" style="width:100%" onclick="Artistry(this);"> 
-  </div>
-  <div class="column">
-    <img src="art_images/day5b.png" alt="Day 5B" style="width:100%" onclick="Artistry(this);"> 
-  </div>
-  <div class="column">
-    <img src="art_images/day6a.png" alt="Day 6A" style="width:100%" onclick="Artistry(this);">
-  </div>
-</div>
-
-<div class="row">
-
-  <div class="column">
-    <img src="art_images/day6b.png" alt="Day 6B" style="width:100%" onclick="Artistry(this);"> 
-  </div>
-  <div class="column">
-    <img src="art_images/day7a.png" alt="Day 7A" style="width:100%" onclick="Artistry(this);"> 
-  </div>
-  <div class="column">
-    <img src="art_images/day7b.png" alt="Day 7B" style="width:100%" onclick="Artistry(this);"> 
-  </div>
-  <div class="column">
-    <img src="art_images/day9.png" alt="Day 9" style="width:100%" onclick="Artistry(this);"> 
-  </div>
-  <div class="column">
-    <img src="art_images/day10.png" alt="Day 10" style="width:100%" onclick="Artistry(this);"> 
-  </div>
-  <div class="column">
-    <img src="art_images/day13.png" alt="Day 13" style="width:100%" onclick="Artistry(this);"> 
-  </div>
-  <div class="column">
-    <img src="art_images/day14.png" alt="Day 14" style="width:100%" onclick="Artistry(this);"> 
-  </div>
-  <div class="column">
-    <img src="art_images/day15.png" alt="Day 15" style="width:100%" onclick="Artistry(this);"> 
-  </div>
-</div>
-
-<div class="row">
-  <div class="column">
-    <img src="art_images/day21.png" alt="Day 21" style="width:100%" onclick="Artistry(this);"> 
-  </div>
-  <div class="column">
-    <img src="art_images/day23.png" alt="Day 23" style="width:100%" onclick="Artistry(this);"> 
-  </div>
-  <div class="column">
-    <img src="art_images/day28.png" alt="Day 28" style="width:100%" onclick="Artistry(this);"> 
-  </div>
-  <div class="column">
-    <img src="art_images/day51.png" alt="Day 51" style="width:100%" onclick="Artistry(this);"> 
-  </div>
-  <div class="column">
-    <img src="art_images/dayidk.png" alt="Day IDK" style="width:100%" onclick="Artistry(this);"> 
-  </div>
-  <div class="column">
-    <img src="art_images/frinky.png" alt="Frinky: Explainable" style="width:100%" onclick="Artistry(this);"> 
-  </div>
-  <div class="column">
     <img src="art_images/Gongonlo%20The%20War%20God.png" alt="Gongonlo The War God" style="width:100%" onclick="Artistry(this);"> 
   </div>
   <div class="column">
     <img src="art_images/Mr%20Character.png" alt="Mr. Character" style="width:100%" onclick="Artistry(this);"> 
   </div>
-</div>
-
-<div class="row">
-
   <div class="column">
     <img src="art_images/Nintendo%20Enslavement%20System.png" alt="Nintendo Enslavement System" style="width:100%" onclick="Artistry(this);"> 
   </div>
     <div class="column">
-    <img src="art_images/Marcus%20and%20Walter%20according%20to%20the%20draw%20song.png" alt="Marcus & Walter according to the Nintendo Draw Mario song" style="width:100%" onclick="Artistry(this);"> 
-  </div>
-      <div class="column">
-    <img src="art_images/mansion4gengis.png" alt="Katana Zero Art 4 Gengis G." style="width:100%" onclick="Artistry(this);"> 
+    <img src="art_images/Marcus%20and%20Walter%20according%20to%20the%20draw%20song.png" style="width:100%" onclick="Artistry(this);"
+	alt="Marcus & Walter according to the Nintendo Draw Mario song" id="<br>Yeah there's a nintendo drawing song for Mario so I followed it for funsies."> 
   </div>
   <div class="column">
-    <img src="art_images/i%20forget.png" alt="I Forget" style="width:100%" onclick="Artistry(this);"> 
+    <img src="art_images/Boron%20Fiend.png" style="width:100%" onclick="Artistry(this);"
+	alt="Boron Fiend" id="<br>Originally made for a science project,<br>I recycled the character for Wet Gamin's Halloween 2019 event."> 
   </div>
   <div class="column">
-    <img src="art_images/Snake.png" alt="Unused Snake Spritesheet" style="width:100%" onclick="Artistry(this);"> 
-  </div>
-  <div class="column">
-    <img src="art_images/sushi.png" alt="sushipantsu bday thing" style="width:100%" onclick="Artistry(this);"> 
-  </div>
-  <div class="column">
-    <img src="art_images/Kinoko.png" alt="KINOKO" style="width:100%" onclick="Artistry(this);"> 
-  </div>
-  <div class="column">
-    <img src="art_images/toodamnloud.png" alt="OH MY GOD" style="width:100%" onclick="Artistry(this);"> 
-  </div>
-</div>
-
-<div class="row">
-
-  <div class="column">
-    <img src="art_images/Boron%20Fiend.png" alt="Boron Fiend" style="width:100%" onclick="Artistry(this);"> 
-  </div>
-    <div class="column">
     <img src="art_images/Boron%20Underling.png" alt="Boron Underling" style="width:100%" onclick="Artistry(this);"> 
   </div>
-      <div class="column">
+  <div class="column">
     <img src="art_images/black%20wario%20with%20long%20hair.png" alt="Walter" style="width:100%" onclick="Artistry(this);"> 
   </div>
   <div class="column">
     <img src="art_images/Luther.png" alt="Luther (Human Form)" style="width:100%" onclick="Artistry(this);"> 
   </div>
+</div>
+
+<div class="row">
   <div class="column">
     <img src="art_images/eggman.png" alt="Literal Eggman" style="width:100%" onclick="Artistry(this);"> 
+  </div>
+  <div class="column">
+    <img src="art_images/gud%20serve2.png" style="width:100%" onclick="Artistry(this);"
+	alt="Gud Server Logo" id="<br>A logo made for David The Frikr's old server hosting group.<br>It's long since dead, but this img still floats around from time to time."> 
+  </div>
+  <div class="column">
+    <img src="art_images/spytest3.png" style="width:100%" onclick="Artistry(this);"
+	alt="Very Old Spy 4 King Spy" id="<br>I was really bored one day so I joined a steam group<br>and asked if people wanted profile pictures.<br>This was the first one."> 
+  </div>
+  <div class="column">
+    <img src="art_images/SPY%20IVAN.png" style="width:100%" onclick="Artistry(this);"
+	alt="Very Old Spy 4 Ivan" id="<br>The second of the MS Paint TF2 trio."> 
+  </div>
+  <div class="column">
+    <img src="art_images/test2.png" style="width:100%" onclick="Artistry(this);"
+	alt="Very Old Soldier 4 ???" id="<br>Although I made this one for some guy I don't know anymore,<br>I don't quite remember why it was made.<br>It actually predates the other two TF2 MS Paints."> 
+  </div>
+  <div class="column">
+    <img src="art_images/secret.png" alt="" style="width:100%" onclick="secret(this);"> 
+  </div>
+</div>
+
+<div class="row">
+<h2>Day Series:</h2>
+  <div class="column">
+    <img src="art_images/Gamit%20Lineup.png" style="width:100%" onclick="Artistry(this);"
+	alt="Gamit Lineup" id="<br>Despite not literally being tied to the Day Series,<br>this made me realize I needed to draw necks for characters.<br>Thus inevitably leading to the Day Series."> 
+  </div>
+  <div class="column">
+    <img src="art_images/day1.png" style="width:100%" onclick="Artistry(this);"
+	alt="Day 1" id="<br>Day 1 of a series I posted day-by-day on Twitter to force myself to develop my art style.
+	<br>It worked out pretty well and eventually bled into the rest of my art.
+	<br>You can see the humble beginnings of a lot of my tropes here,<br>along with me finally learning that I *need* necks for my art."> 
+  </div>
+  <div class="column">
+    <img src="art_images/day2.png" alt="Day 2" style="width:100%" onclick="Artistry(this);" id="Go to Day 1 for description."> 
+  </div>
+  <div class="column">
+    <img src="art_images/day3.png" alt="Day 3" style="width:100%" onclick="Artistry(this);" id="Go to Day 1 for description."> 
+  </div>
+  <div class="column">
+    <img src="art_images/day4.png" alt="Day 4" style="width:100%" onclick="Artistry(this);" id="Go to Day 1 for description."> 
+  </div>
+  <div class="column">
+    <img src="art_images/day5a.png" alt="Day 5A" style="width:100%" onclick="Artistry(this);" id="Go to Day 1 for description."> 
+  </div>
+  <div class="column">
+    <img src="art_images/day5b.png" alt="Day 5B" style="width:100%" onclick="Artistry(this);" id="Go to Day 1 for description."> 
+  </div>
+  <div class="column">
+    <img src="art_images/day6a.png" alt="Day 6A" style="width:100%" onclick="Artistry(this);" id="Go to Day 1 for description.">
+  </div>
+</div>
+
+<div class="row">
+
+  <div class="column">
+    <img src="art_images/day6b.png" alt="Day 6B" style="width:100%" onclick="Artistry(this);" id="Go to Day 1 for description."> 
+  </div>
+  <div class="column">
+    <img src="art_images/day7a.png" alt="Day 7A" style="width:100%" onclick="Artistry(this);" id="Go to Day 1 for description."> 
+  </div>
+  <div class="column">
+    <img src="art_images/day7b.png" alt="Day 7B" style="width:100%" onclick="Artistry(this);" id="Go to Day 1 for description."> 
+  </div>
+  <div class="column">
+    <img src="art_images/day9.png" alt="Day 9" style="width:100%" onclick="Artistry(this);" id="Go to Day 1 for description."> 
+  </div>
+  <div class="column">
+    <img src="art_images/day10.png" alt="Day 10" style="width:100%" onclick="Artistry(this);" id="Go to Day 1 for description."> 
+  </div>
+  <div class="column">
+    <img src="art_images/day13.png" alt="Day 13" style="width:100%" onclick="Artistry(this);" id="Go to Day 1 for description."> 
+  </div>
+  <div class="column">
+    <img src="art_images/day14.png" alt="Day 14" style="width:100%" onclick="Artistry(this);" id="Go to Day 1 for description."> 
+  </div>
+  <div class="column">
+    <img src="art_images/day15.png" alt="Day 15" style="width:100%" onclick="Artistry(this);" id="Go to Day 1 for description."> 
+  </div>
+</div>
+
+<div class="row">
+  <div class="column">
+    <img src="art_images/day21.png" alt="Day 21" style="width:100%" onclick="Artistry(this);" id="Go to Day 1 for description."> 
+  </div>
+  <div class="column">
+    <img src="art_images/day23.png" alt="Day 23" style="width:100%" onclick="Artistry(this);" id="Go to Day 1 for description."> 
+  </div>
+  <div class="column">
+    <img src="art_images/day28.png" alt="Day 28" style="width:100%" onclick="Artistry(this);" id="Go to Day 1 for description."> 
+  </div>
+  <div class="column">
+    <img src="art_images/day51.png" alt="Day 51" style="width:100%" onclick="Artistry(this);" id="Go to Day 1 for description."> 
+  </div>
+  <div class="column">
+    <img src="art_images/dayidk.png" alt="Day IDK" style="width:100%" onclick="Artistry(this);" id="Go to Day 1 for description."> 
+  </div>
+  <div class="column">
+    <img src="art_images/mansion4gengis.png" style="width:100%" onclick="Artistry(this);"
+	alt="Katana Zero Art 4 Gengis G." id="<br>Made for a friend, Gengis G.<br>Who really likes Katana Zero."> 
+  </div>
+  <div class="column">
+    <img src="art_images/i%20forget.png" alt="I Forget" style="width:100%" onclick="Artistry(this);"> 
+  </div>
+  <div class="column">
+    <img src="art_images/Snake.png" style="width:100%" onclick="Artistry(this);"
+	alt="Unused Snake Spritesheet" id="<br>Used to test my new art style in my game engine, along with other things."> 
+  </div>
+</div>
+
+<div class="row">
+  <div class="column">
+    <img src="art_images/sushi.png" style="width:100%" onclick="Artistry(this);"
+	alt="sushipantsu bday thing" id="<br>Both parts a birthday image and me poking fun at Sushipantsu."> 
   </div>
   <div class="column">
     <img src="art_images/NDoulLanding.png" alt="N'Doul" style="width:100%" onclick="Artistry(this);"> 
   </div>
   <div class="column">
-    <img src="art_images/Full.png" alt="OLD DSI IMAGE COLLECTION" style="width:100%" onclick="Artistry(this);"> 
+    <img src="art_images/Full.png" style="width:100%" onclick="Artistry(this);"
+	alt="OLD DSI IMAGE COLLECTION" id="<br>Done sometime in 2019-2020 I think?<br>It's a collection of DSI art that marks the 'refinement' of my art style."> 
   </div>
   <div class="column">
-    <img src="art_images/gud%20serve2.png" alt="Gud Server Logo" style="width:100%" onclick="Artistry(this);"> 
-  </div>
-</div>
-
-<div class="row">
-
-  <div class="column">
-    <img src="art_images/Merged%20Parts.png" alt="Gamit Title Screen (Early)" style="width:100%" onclick="Artistry(this);"> 
+    <img src="art_images/toodamnloud.png" alt="OH MY GOD" style="width:100%" onclick="Artistry(this);"> 
   </div>
   <div class="column">
-    <img src="art_images/applegame.png" alt="Art 4 Apple" style="width:100%" onclick="Artistry(this);"> 
+    <img src="art_images/Kinoko.png" alt="KINOKO" style="width:100%" onclick="Artistry(this);"> 
+  </div>
+  <div class="column">
+    <img src="art_images/Merged%20Parts.png" style="width:100%" onclick="Artistry(this);"
+	alt="Gamit Title Screen (Early)" id="<br>A WIP Gamit title-screen.<br>Missing a lot of finer details and color."> 
+  </div>
+  <div class="column">
+    <img src="art_images/applegame.png" style="width:100%" onclick="Artistry(this);"
+	alt="Art 4 Apple" id="<br>Art for this guy, StrangeApple, who used to make RPGMaker games n' art.<br>Not sure where he is now."> 
   </div>
   <div class="column">
     <img src="art_images/EggCarrier.png" alt="Egg Carrier" style="width:100%" onclick="Artistry(this);"> 
   </div>
-  <div class="column">
-    <img src="art_images/spytest3.png" alt="Very Old Spy 4 King Spy" style="width:100%" onclick="Artistry(this);"> 
-  </div>
-  <div class="column">
-    <img src="art_images/SPY%20IVAN.png" alt="Very Old Spy 4 Ivan" style="width:100%" onclick="Artistry(this);"> 
-  </div>
-  <div class="column">
-    <img src="art_images/test2.png" alt="Very Old Soldier 4 ???" style="width:100%" onclick="Artistry(this);"> 
-  </div>
-  <div class="column">
-    <img src="art_images/gloomin%20chars.png" alt="Gloomin Characters" style="width:100%" onclick="Artistry(this);"> 
-  </div>
-  <div class="column">
-    <img src="art_images/grand%20in%20smash.png" alt="grand in smash" style="width:100%" onclick="Artistry(this);"> 
-  </div>
 </div>
 
 <div class="row">
+<h2>Post-Day:</h2>
   <div class="column">
-    <img src="art_images/diyusi%20apartment%20drawing.png" alt="DIYUSI Apartment" style="width:100%" onclick="Artistry(this);"> 
+    <img src="art_images/gloomin%20chars.png" style="width:100%" onclick="Artistry(this);"
+	alt="Gloomin Characters" id="<br>Some fan-art for Gloomin'."> 
+  </div>
+  <div class="column">
+    <img src="art_images/grand%20in%20smash.png" style="width:100%" onclick="Artistry(this);"
+	alt="grand in smash" id="<br>A shitpost I made while watching that annoying Nintendo Direct with a bunch of guys in a discord."> 
+  </div>
+  <div class="column">
+    <img src="art_images/diyusi%20apartment%20drawing.png" style="width:100%" onclick="Artistry(this);"
+	alt="DIYUSI Apartment" id="<br>Cookie(Star) is pretty interesting, take a dive down the rabbit hole if you dare."> 
   </div>
   <div class="column">
     <img src="art_images/cirnodaycirnos.png" alt="9/9 cirnos" style="width:100%" onclick="Artistry(this);"> 
   </div>
     <div class="column">
-    <img src="art_images/burnt%20mariobama.png" alt="Burnt MariObama" style="width:100%" onclick="Artistry(this);"> 
+    <img src="art_images/burnt%20mariobama.png" style="width:100%" onclick="Artistry(this);"
+	alt="Burnt MariObama" id="<br>Art for 'At Least There Is Ceda Cedovich',<br>a pretty fun itch.io game."> 
   </div>
   <div class="column">
     <img src="art_images/vibe.png" alt="vibe" style="width:100%" onclick="Artistry(this);"> 
@@ -343,20 +371,22 @@
   <div class="column">
     <img src="art_images/kill%20me%20baby.png" alt="kill me baby" style="width:100%" onclick="Artistry(this);"> 
   </div>
-  <div class="column">
-    <img src="art_images/robotnik%20soulja%20boy.png" alt="robotnik soulja boy" style="width:100%" onclick="Artistry(this);"> 
-  </div>
-  <div class="column">
-    <img src="art_images/gimmick%20ideas.png" alt="gimmick ideas" style="width:100%" onclick="Artistry(this);"> 
-  </div>
 </div>
 
 <div class="row">
   <div class="column">
+    <img src="art_images/robotnik%20soulja%20boy.png" alt="robotnik soulja boy" style="width:100%" onclick="Artistry(this);"> 
+  </div>
+  <div class="column">
+    <img src="art_images/gimmick%20ideas.png" style="width:100%" onclick="Artistry(this);"
+	alt="gimmick ideas" id="<br>The original ideas that kicked off Grandman 2's main gimmick.<br>--The grabbing."> 
+  </div>
+  <div class="column">
     <img src="art_images/2004%20stock%20market%20crash.png" alt="2004 stock market crash" style="width:100%" onclick="Artistry(this);"> 
   </div>
   <div class="column">
-    <img src="art_images/aosora444%20girl.png" alt="aosora444's girl" style="width:100%" onclick="Artistry(this);"> 
+    <img src="art_images/aosora444%20girl.png" style="width:100%" onclick="Artistry(this);"
+	alt="aosora444's girl" id="<br>Fan-art made for Aosora444."> 
   </div>
   <div class="column">
     <img src="art_images/bad%20image.png" alt="kmb meme image #1" style="width:100%" onclick="Artistry(this);"> 
@@ -365,38 +395,37 @@
     <img src="art_images/big%20time%20gambler.png" alt="kmb meme image #2" style="width:100%" onclick="Artistry(this);"> 
   </div>
   <div class="column">
-    <img src="art_images/caligraphy%20brush.png" alt="having fun with caligraphy brush" style="width:100%" onclick="Artistry(this);"> 
+    <img src="art_images/caligraphy%20brush.png" style="width:100%" onclick="Artistry(this);"
+	alt="having fun with caligraphy brush" id="<br>I found out what the MS Paint Caligraphy brush is,<br>this is probably a permanent staple now."> 
   </div>
   <div class="column">
-    <img src="art_images/camel%20ensemble.png" alt="camel ensemble for speedos" style="width:100%" onclick="Artistry(this);"> 
-  </div>
-  <div class="column">
-    <img src="art_images/icg%20killer.png" alt="ICG killer" style="width:100%" onclick="Artistry(this);"> 
-  </div>
-  <div class="column">
-    <img src="art_images/lineup.png" alt="main character line-up" style="width:100%" onclick="Artistry(this);"> 
+    <img src="art_images/camel%20ensemble.png" style="width:100%" onclick="Artistry(this);"
+	alt="camel ensemble" id="<br>The final and finished version of a collage of all of the important characters from the Camel-crew.<br>An older version was used unwillingly for an album cover that's poorly edited."> 
   </div>
 </div>
 
 <div class="row">
-
   <div class="column">
-    <img src="art_images/yasuna%20deez%20nuts.png" alt="Yasuna DEEZ NUTS" style="width:100%" onclick="Artistry(this);"> 
+    <img src="art_images/icg%20killer.png" style="width:100%" onclick="Artistry(this);"
+	alt="ICG killer" id="<br>Yet again, Cookie(Star) is one helluva rabbit hole."> 
   </div>
   <div class="column">
-    <img src="art_images/superpapermario.png" alt="super paper mario review-ish" style="width:100%" onclick="Artistry(this);"> 
+    <img src="art_images/lineup.png" style="width:100%" onclick="Artistry(this);"
+	alt="main character line-up" id="<br>All of my human-like main characters lined up."> 
   </div>
   <div class="column">
     <img src="art_images/paper.png" alt="Hotel Dusk Paper" style="width:100%" onclick="Artistry(this);"> 
   </div>
   <div class="column">
-    <img src="art_images/power%20mario%20shitpost.png" alt="mario shitpost" style="width:100%" onclick="Artistry(this);"> 
+    <img src="art_images/power%20mario%20shitpost.png" style="width:100%" onclick="Artistry(this);"
+	alt="mario shitpost" id="<br>I don't remember why I made this, but it's funny to me."> 
   </div>
   <div class="column">
     <img src="art_images/cookie%20doodles.png" alt="cookie(star) doodles" style="width:100%" onclick="Artistry(this);"> 
   </div>
   <div class="column">
-    <img src="art_images/final%20ver.png" alt="Wet Gamin' Halloween 2020 Char" style="width:100%" onclick="Artistry(this);"> 
+    <img src="art_images/final%20ver.png" style="width:100%" onclick="Artistry(this);"
+	alt="Hivemind Jones" id="<br>A character made for Wet Gamin's 2020 Halloween event."> 
   </div>
   <div class="column">
     <img src="art_images/angol%20mois.png" alt="Sgt. Frog's Angol Mois" style="width:100%" onclick="Artistry(this);"> 
@@ -405,6 +434,19 @@
     <img src="art_images/yaddas.png" alt="Yasuna with Yaddas" style="width:100%" onclick="Artistry(this);"> 
   </div>
 </div>
+
+<div class="row">
+  <div class="column">
+    <img src="art_images/yasuna%20deez%20nuts.png" alt="Yasuna DEEZ NUTS" style="width:100%" onclick="Artistry(this);"> 
+  </div>
+  <div class="column">
+    <img src="art_images/superpapermario.png" style="width:100%" onclick="Artistry(this);"
+	alt="super paper mario review-ish" id="<br>A commemorative image made on Super Paper Mario's birthday."> 
+  </div>
+</div>
+
+<br>
+<p style="font-size:9; text-align: center;">WEBSITE BY DURDGE-O</p>
 
 </article>
 </body>

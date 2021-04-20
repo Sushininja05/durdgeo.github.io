@@ -2,7 +2,7 @@
 
 {
 
-var wisdomlist=[
+var advicelist=[
 
 "The kick you do in Super Mario 64 when jumpin is real good for positioning yourself on tight platforms and not dyin'.",
 
@@ -20,8 +20,6 @@ var wisdomlist=[
 
 "i'm playing garage in garage with hideo kojima my favorite mascot",	
 
-"https://gudstuffzinc.us/ heehehoo",	
-
 "poke through your eYE to touch YOUR bRAIN",
 
 "JAMP JAMP Jamspg.... SLIDE Sldigosokg LSDIkge",
@@ -36,7 +34,7 @@ var wisdomlist=[
 
 "you aren't metal unless you've eaten an entire fuckin' bible",
 
-"https://asteroid2k.neocities.org/img/yahoo_gangweed.png",
+"https://konservsky.neocities.org/img/yahoo_gangweed.png",
 
 "I payed $2 for a lock, sold the lock for $5... supply and demand babbyyy",
 
@@ -70,18 +68,42 @@ var wisdomlist=[
 
 "chef--- face revealll??? I HAVE to confrim this.",
 
-"do u wanna be my friend or not?-- oh i'm sorry.",
-
 "can't even handle a kilogram of GRAPE!",
-
-"is it ok if I bring my ds to my mom's funeral in case I get bored?",
 
 "large man wear shirt, it's him the shirt man, that's him the SHIRT man",
 
 "shit up, fuck down, idiot",
+
+"I come from Wet Gamin's 2018 Halloween Event, MY EXISTENCE IS RECYCLED.",
+
+"Sometimes, I say funny stuff, other times I talk like this. Weird, huh?",
+
+"that gay couple who had their cake denied must have been like 'wow the cake was a lie' winky face colon p",
+
+"not a fan of dopplegangers, that contact guy knows what I'm talking about-- I WAS HERE FIRST.",
+
+"chinese fan yee haw",
+
+"ass to ashes, bust to dust",
+
+"hate when u get a girl toy from mcdoands",
+
+"escaped war in iran and immigrated to america just for my boy to not relish in the pure joys of bush",
+
+"wow, can't even post 2 homies kissing... racist server.",
+
+"couc-h stuck n i need sum1 to come fix it,, will pay u 100",
+
+"how two men?",
+
+"ig toot owfeed",
+
+"wasn",
+
+"damn that ass can fart",
 ]; 
 			
-var wisdom=wisdomlist[Math.floor(Math.random()*wisdomlist.length)]; 
+var advice=advicelist[Math.floor(Math.random()*advicelist.length)]; 
 			
-document.getElementById("thingo").innerHTML = wisdom;
+document.getElementById("thingo").innerHTML = advice;
 		}
