@@ -22,7 +22,7 @@ if (this.readyState == 4 && this.status == 200) {
 }
 
    function loadPage(id, n) {
-      loadContent("/blog/"+id+".html", (content) => {
+      loadContent("blog/"+id+".html", (content) => {
         document.getElementById("main").innerHTML = content;
         
    document.getElementById("last").onclick = () => loadPage(1,n);
@@ -33,7 +33,8 @@ if (this.readyState == 4 && this.status == 200) {
       });
     }
 
-   loadContent("/blog/n.txt", (n) => {loadPage(n,n)});
+    
+   loadContent("blog/n.txt", (n) => {loadPage(n,n)});
 </script>
 </head>
 <body>
