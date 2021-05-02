@@ -1,36 +1,69 @@
+/* General Styling */
+a:link{color:gray; font: 24/48px;}
+a:visited{color:gray; font: 24/48px;}
+div, p{padding:0px; margin:0px;}
+h2{padding:0px; margin:0px; text-align: center;}
+h3, h4{padding:0px; margin:0px; text-align: left;}
+ul, li{padding:0px; margin:0px; list-style-type:none; text-align: center;}
 body{padding:0px; margin:0px; background:black; color:white; font:24px/48px Tahoma, sans-serif; }
-a:link{color:gray; font: 24/48px; border:black 4px solid; background:black;}
-a:visited{color:gray; font: 24/48px; border:black 4px solid; background:black;}
-a:hover{color:gray; font: 24/48px; border:black 4px solid; background:black;} 
-a:active{color:gray; font: 24/48px; border:black 4px solid; background:black;}
-div, p, ul, h2, h3, h4, img{padding:0px; margin:0px;}
-ul{list-style-type:none;}
 
-/* width */
+/* Scroll-bar Specifics */
 ::-webkit-scrollbar {
     width: 10px;
 }
-
-/* Track */
 ::-webkit-scrollbar-track {
     box-shadow: black;
     background: black;
     border-radius: 0px;
 }
- 
-/* Handle */
 ::-webkit-scrollbar-thumb {
     background: white; 
     border-radius: 0px;
 }
-
-/* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
     background: gray; 
 }
 
-	body {
-			background-color: black;
-			background-image: url("https://sushininja05.github.io/game_area/img/background_a.png");;
-			margin: 0;
-		}
+/* Header */
+header {
+  background-color: black;
+  background-image: url("../game_area/img/background_b.png");
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Nav */
+nav {
+  float: left;
+  width: 522;
+  background: black;
+  background-image: url("../game_area/img/background_a.png");
+}
+nav h2 {
+  border:black 4px solid; 
+  background:black;
+}
+nav ul, il{
+  text-align: center;
+  float: center;
+}
+
+/* Actual Text */
+aside {
+  background-color: black;
+  padding-left: 10px;
+}
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+footer {
+  background-color: black;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}

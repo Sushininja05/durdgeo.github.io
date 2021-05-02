@@ -80,7 +80,7 @@ var advicelist=[
 
 "that gay couple who had their cake denied must have been like 'wow the cake was a lie' winky face colon p",
 
-"not a fan of dopplegangers, that contact guy knows what I'm talking about-- I WAS HERE FIRST.",
+"not a fan of dopplegangers, that contact guy knows what I'm talking about-- I WAS HERE FIRST... I even lost my spot...",
 
 "chinese fan yee haw",
 
@@ -101,6 +101,8 @@ var advicelist=[
 "wasn",
 
 "damn that ass can fart",
+
+"y'kno losin' my spot on the index has taught me something... hate that contact guy even more",
 ]; 
 			
 var advice=advicelist[Math.floor(Math.random()*advicelist.length)]; 

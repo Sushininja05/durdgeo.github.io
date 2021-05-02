@@ -2,7 +2,7 @@
 h2, h3, h4, img{padding:0px; margin:0px; text-align: center;}
 ul, li{list-style-type:none; text-align: left;}
 body{background-color: black; font-size: 20px; margin: 0px; padding:0px; font:10px/14px Tahoma, sans-serif;
-background-image: url("https://sushininja05.github.io/images/bg.gif");;}
+background-image: url("../blog_area/images/bg.gif");}
 
 /* Specific Table Colors */
 a{color: black;}
