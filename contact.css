@@ -40,7 +40,7 @@ p span.headline{font:12px/14px "Times New Roman", Times, serif; color:white; fon
 
 #about{width:200px; position:relative; float:left; display:inline; margin:0 12px 50px 17px;}
 #about h2{height:49px; background:url(images/h_about.gif) 0 0 no-repeat; position:relative; clear:both; margin-bottom:13px}
-#about p{padding-left:2px; font:18px Tahoma, sans-serif;}
+#about p{padding-left:2px; font:12px; font-weight:bolder;}
 #about p span{margin-bottom:20px; display:block;}
 #about img{padding-left:2px; margin-top:15px;}
 #about a{padding-left:2px; color:gray; font:18px Tahoma, sans-serif;}
