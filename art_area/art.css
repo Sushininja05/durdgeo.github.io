@@ -5,6 +5,7 @@
     height: 100px;
     padding: 2px;
 }
+
 /* Images In Grid */
 .column img {
     opacity: 0.3;
@@ -15,6 +16,7 @@
 .column img:hover {
     opacity: 0.9;
 }
+
 /* Clear floats after Grid */
 .row:after {
     content: "";
@@ -22,6 +24,7 @@
     clear: both;
 	position: relative;
 }
+
 /* The expanding image container */
 .container {
 	content: "";
@@ -29,6 +32,7 @@
     display: none;
 	clear:both;
 }
+
 /* Expanding image text */
 #imgname {
     position: relative;
@@ -48,6 +52,12 @@
     font-size: 18px;
     font-weight: normal;
 }
+
+/* Expanded Img Background Fix */
+#expandedImg {
+	background-color: white;
+}
+
 /* Closable button inside the expanded image */
 .closebtn {
     position: absolute;
@@ -58,7 +68,7 @@
     cursor: pointer;
 }
 
-/* Background Stuff */
+/* General Stuff */
 	body {
 		color: white;
 		background-color: black;
@@ -75,7 +85,7 @@
 	a {
 		color: gray;
 	}
-
+	
 /* Scroll-bar Specifics */
 	::-webkit-scrollbar {
     width: 5px;
@@ -91,3 +101,6 @@
     ::-webkit-scrollbar-thumb:hover {
     background: gray; 
     }
+	
+/* Top Image Hover Setup */
+.clear {clear: both; margin: 0px}

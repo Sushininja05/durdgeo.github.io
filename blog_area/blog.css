@@ -1,17 +1,15 @@
 /* General Styling */
 h2, h3, h4, img{padding:0px; margin:0px; text-align: center;}
 ul, li{list-style-type:none; text-align: left;}
-body{background-color: black; font-size: 20px; margin: 0px; padding:0px; font:10px/14px Tahoma, sans-serif;
-background-image: url("../blog_area/images/bg.gif");}
+body{background-color: black; font-size: 20px; margin: 0px; padding:0px; font:10px/14px Tahoma, sans-serif;}
 
 /* Specific Table Colors */
 a.a{color: black;}
 a{color: white;}
-span.text4{color:white; max-width:780px; width:780px;}
-span.#text{color:white; max-width:780px; width:780px;}
+span.text4{color:white; max-width:780px; width:780px; overflow-wrap: break-word;}
+span.#text{color:white; max-width:780px; width:780px; overflow-wrap: break-word;}
 span.text5{color:white; font-weight:bold;}
 
-/* Not quite sure what this is. */
 .clear {clear: both; margin: 0px}
 
 /* Scroll-bar Specifics */

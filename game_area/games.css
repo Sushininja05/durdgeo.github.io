@@ -27,7 +27,6 @@ body{padding:0px; margin:0px; background:black; color:white; font:24px/48px Taho
 /* Header */
 header {
   background-color: black;
-  background-image: url("../game_area/img/background_b.png");
   text-align: center;
   font-size: 35px;
   color: white;
@@ -38,7 +37,6 @@ nav {
   float: left;
   width: 522;
   background: black;
-  background-image: url("../game_area/img/background_a.png");
 }
 nav h2 {
   border:black 4px solid; 
