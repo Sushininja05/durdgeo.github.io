@@ -38,10 +38,6 @@ var advicelist=[
 
 "I come from Wet Gamin's 2018 Halloween Event, MY EXISTENCE IS RECYCLED.",
 
-"sometimes, I say funny stuff, other times I talk like this. Weird, huh?",
-
-"I'm not sure how this whole place got here, it kinda just appeared one day, along with that one miltary guy",
-
 "chinese fan yee haw",
 
 "ass to ashes, bust to dust",
@@ -58,7 +54,7 @@ var advicelist=[
 
 "awhile ago that contact guy bite the dust, it's pretty funny to see that doppleganger finally get one over on em'",
 
-"in terms of the lore of this land... I remember it all originating from an era of fire, infinite flames and combusting grounds... probably just a dream",
+"not sure why I'm here",
 ]; 
 			
 var advice=advicelist[Math.floor(Math.random()*advicelist.length)]; 
