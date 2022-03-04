@@ -72,8 +72,8 @@ iframe.news { border-style: double; border-color: black; border-width: 0px;}
 #games a:hover{color:gray; border-bottom: #cfa779 1px dotted; text-decoration:none }
 
 /* FOOTER */
-#footer{width:775px; height:89px; position:relative; background:white; margin: 0 auto;  clear:both}
-#footer p{padding: 30px 0 0 0; font:10px/16px Tahoma, Arial, Helvetica, sans-serif; font-weight:normal; text-align:center; color:black;}
+#footer{width:775px; height:70px; position:relative; background:white; margin: 0 auto;  clear:both}
+#footer p{padding: 28px 0 0 0; font:10px/16px Tahoma, Arial, Helvetica, sans-serif; font-weight:normal; text-align:center; color:black;}
 #footer p a{font:10px/16px Tahoma, Arial, Helvetica, sans-serif; font-weight:normal; color:black; text-decoration:none; padding: 0 5px }
 #footer p a:hover{text-decoration:none; background:black; color:white}
 
