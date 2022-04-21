@@ -1,5 +1,5 @@
 Welcome to my website! 
-Originally just on Neocities, I decided to move it after due to it's annoying upload refresh and "update" log.
+Originally just on Neocities, I decided to move it after due to their annoying upload refresh and "update" log.
 I also just wanted my files to be transparent so other people could reference my shitty HTML.
 
 I started this as a project out of boredom, ended up morphing into my main hub for all my work.
