@@ -4,33 +4,25 @@
 
 var advicelist=[
 
-"Blow into a plastic bag, lock it when it is super full of air, hit the bag so hard it pops, piss off whoever is around you.",
+"Blow into a plastic bag, lock it when it is super full of air, hit the bag so hard it pops, instant success",
 
-"You gotta shoot the sun to death in order to unlock the secrets.",
+"You gotta shoot the sun to death in order to unlock the secrets",
 
 "i'm playing garage in garage with hideo kojima my favorite mascot",	
 
 "JAMP JAMP Jamspg.... SLIDE Sldigosokg LSDIkge",
 
-"Do you know? Did we know?",
-
 "where is it... my penile machine... ~Infernal",
 
-"you aren't metal unless you've eaten an entire fuckin' bible",
+"I am rich, not in wealth, but in bush",
 
-"I am rich, not in wealth, but in bush.",
-
-"I hold the biggest secrets.",
+"I hold the biggest secrets",
 
 "H-H-H-H-H-HURRY UP!",
 
-"had a dream one morning where I was lost in a neon town, everyone ignored me, I entered an arcade and played DDR, I woke up and missed my bus.",
-
-"one afternoon I fell asleep in my chair, I dreamt of a dull concrete world full of puppet people, I kept pushing past all of them to try and catch some person, I never could.",
-
 "yeah dunno",
 
-"face revealll??? I HAVE to confrim this.",
+"face revealll??? I HAVE to confrim this",
 
 "can't even handle a kilogram of GRAPE!",
 
@@ -55,6 +47,18 @@ var advicelist=[
 "awhile ago that contact guy bite the dust, it's pretty funny to see that doppleganger finally get one over on em'",
 
 "not sure why I'm here",
+
+"work that sucka to death, c'mon now",
+
+"you think they got bushes at other sites? nope! wrong!",
+
+"brotha",
+
+"I HATEA videogomes don't EVER give me a videogame I WILL DESTROY IT",
+
+"used t'a live on the index page before I got the BOOT",
+
+"give em' the boot, right in tha froot-- or, is it the bagel?",
 ]; 
 			
 var advice=advicelist[Math.floor(Math.random()*advicelist.length)]; 
