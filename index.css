@@ -28,12 +28,12 @@ p span.headline{font:12px/14px "Times New Roman", Times, serif; color:white; fon
 /* CONTENT */
 
 #content{width:716px; position:relative; margin: 0 auto; padding-left:28px; clear:both;}
-.line{width:10px; height:292px;  background:url(images/line.jpg) 0 10px no-repeat; position:relative; float:left;}
+.line{width:10px; height:260px;  background:url(images/line.jpg) 0 10px no-repeat; position:relative; float:left;}
 
 #about{width:300px; position:relative; float:left; display:inline; margin:0 12px -10px 12px;}
 #about h2{height:49px; background:url(images/h_about.gif) 0 0 no-repeat; position:relative; clear:both; margin-bottom:13px; margin-left:15px}
 #about p{padding-left:2px;}
-#about p span{margin-bottom:20px; display:block;}
+#about p span{margin-bottom:20px; display:block; }
 #about img{padding-left:2px; margin-top:15px;}
 
 #about ul{margin-top:10px;}
@@ -62,20 +62,14 @@ p span.headline{font:12px/14px "Times New Roman", Times, serif; color:white; fon
 iframe.news { border-style: double; border-color: black; border-width: 0px;}
 
 /* GAMES */
-#games{width:775px; height:131px; position:relative; background:url(images/b_new.jpg) 0 0 repeat; margin: 0 auto; clear:both}
-#games h2{height:80px; width:180px; background:url(images/h_new.gif) 0 0 no-repeat; position:relative; float:left; display:inline; margin:10px 23px 0 40px;}
+#games{width:775px; height:151px; position:relative; background:url(images/b_new.jpg) 0 0 repeat; margin: 0 auto; clear:both}
+#games h2{height:80px; width:180px; position:relative; float:left; display:inline; margin:10px 23px 0 40px;}
 .newgame{width:225px; float:left; margin:7px 30px 0 0; display:block}
 .newgame img{float:left; border:black 4px solid; margin-right:15px; }
 .newgame p {border:black 4px solid; color:white; margin-top:5px; background:black;}
 
 #games a{font:14px Tahoma, sans-serif; color:gray; font-weight:bold; text-decoration:none }
-#games a:hover{color:gray; border-bottom: #cfa779 1px dotted; text-decoration:none }
-
-/* FOOTER */
-#footer{width:775px; height:70px; position:relative; background:white; margin: 0 auto;  clear:both}
-#footer p{padding: 28px 0 0 0; font:10px/16px Tahoma, Arial, Helvetica, sans-serif; font-weight:normal; text-align:center; color:black;}
-#footer p a{font:10px/16px Tahoma, Arial, Helvetica, sans-serif; font-weight:normal; color:black; text-decoration:none; padding: 0 5px }
-#footer p a:hover{text-decoration:none; background:black; color:white}
+#games p a:hover{color:gray; border-bottom: #cfa779 1px dotted; text-decoration:none }
 
 /* SCROLLBAR */
 /* width */

@@ -1,7 +1,7 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>Super Durdge-o Land: Art Emporium!</title>
+<title>Art</title>
 <link rel="icon"
 type="image/png"
 href="https://sushininja05.github.io/art_area/images/D.png">
@@ -16,7 +16,6 @@ href="https://sushininja05.github.io/art_area/images/D.png">
     imgName.innerHTML = imgs.alt;
 	imgDesc.innerHTML = imgs.id;
     expandImg.parentElement.style.display = "block";
-    window.location="#";
     }
 
     function secret(imgs) {
@@ -28,23 +27,27 @@ href="https://sushininja05.github.io/art_area/images/D.png">
 <article>
 
 <div style="text-align:center" id="topper" >
-   <br>
-   <img src="images/header.png"><a href="../index.html" title="Nah, not interested, back to main."><img src="images/door.png"></a><br>
+<img src="images/header.png" usemap="#image-map">
+<map name="image-map">
+    <area target="" alt="Nah, not interested, back to main." title="Nah, not interested, back to main." href="../index.html" coords="590,100,694,198" shape="rect">
+</map>
 </div>
+<p style="text-align:center; color:gray; font-size: 9px;">(Eras are ordered from newest to oldest, first to last. Newest additions are at the bottom of the latest era.)</p>
 <div class="clear"></div>
 
 <!-- The Art Container -->
+<section>
 <div class="container">
   <br>
-  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
-  <img id="expandedImg" style="max-width: 800px;"><br><br>
+  <img id="expandedImg" style="max-width: 800px;">
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span><br><br>
   <div id="imgname" style="max-width: 800px;"></div>
   <div id="imgdesc" style="max-width: 800px;"></div>
 </div>
 
 <!-- The Art Images -->
+<aside>
 <div class="row">
-<p style="text-align:center; color:gray; font-size: 9px;">(Eras are ordered from newest to oldest, first to last. Newest additions are at the bottom of the latest era.)
 <h2>Brush Era:</h2>
   <div class="column">
     <img src="art_images/some%20lost%20art%20of%20mine.png" alt="Brush Era Kick-off" style="width:100%" onclick="Artistry(this);"> 
@@ -124,6 +127,14 @@ href="https://sushininja05.github.io/art_area/images/D.png">
   <div class="column">
     <img src="art_images/roboky_luckyday.png" style="width:100%" onclick="Artistry(this);"
 	alt="TODAY'S YOUR LUCKY DAY, LADY!" id="<br>Recently, there was a Strive character vote, for Season 2.<br>I love Robo-ky, so I made this image out of sheer boredom and procrastination.<br>Accidentally blew up my twitter doing so."> 
+  </div>
+  <div class="column">
+    <img src="art_images/im%20on%20the%20outside%20now.png" style="width:100%" onclick="Artistry(this);"
+	alt="I'm on the outside now" id="<br>More draws, big image, origin of Robo-ky draw."> 
+  </div>
+  <div class="column">
+    <img src="art_images/something%20is%20all%20im%20saying.png" style="width:100%" onclick="Artistry(this);"
+	alt="Something Is All I'm Saying" id="<br>MOOOREEE DRAWSS."> 
   </div>
 </div>
 
@@ -564,7 +575,7 @@ href="https://sushininja05.github.io/art_area/images/D.png">
     <img src="art_images/Texan%20Invasion.png" alt="Texan Invasion" style="width:100%" onclick="Artistry(this);"> 
   </div>
   <div class="column">
-    <img src="art_images/Speedos%20Mastered.png" alt="Speedos" style="width:100%" onclick="Artistry(this);"> 
+    <img src="art_images/Sonic%20Boi.png" alt="Old Unfunny Boi Image" style="width:100%" onclick="Artistry(this);"> 
   </div>
   <div class="column">
     <img src="art_images/Tip%20Man.png" alt="Grandman Tip Man Sprites" style="width:100%" onclick="Artistry(this);"> 
@@ -657,11 +668,10 @@ href="https://sushininja05.github.io/art_area/images/D.png">
     <img src="art_images/Tumbleh.png" style="width:100%" onclick="Artistry(this);"
 	alt="Tumbleh" id="<br>Pretty sure I made this for my old Tumblr account?"> 
   </div>
-  <div class="column">
-    <img src="art_images/Sonic%20Boi.png" alt="Old Unfunny Boi Image" style="width:100%" onclick="Artistry(this);"> 
-  </div>
 </div>
-<h2>Art Links: <a href="https://twitter.com/DurdgeO">Twitter</a> | <a href="https://www.pixiv.net/en/users/27948582">Pixiv</a></h2>
+</aside>
+</section>
+<h2><a href="https://twitter.com/DurdgeO">Twitter</a> | <a href="https://www.pixiv.net/en/users/27948582">Pixiv</a> | <a href="https://durdge-o.newgrounds.com/">Newgrounds</a></h2>
 
 <br>
 <p style="font-size:9; text-align: center;">WEBSITE BY DURDGE-O</p>

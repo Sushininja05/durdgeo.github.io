@@ -1,10 +1,13 @@
 /* General Styling */
 body{background:black; font:20px Tahoma, sans-serif; margin: 0;}
-p{color:white; font-size:20px; text-align:center; margin: 0;}
-a{color:gray; font-size:20px}
+p{color:white; font:20px Tahoma, sans-serif; text-align:center; margin: 0;}
+a{color:gray; font:20px Tahoma, sans-serif;}
 div, h1, h2, h3, h4, img{color: white; padding:0px; margin:0px; text-align:center;}
 ul{list-style-type: none; padding:0px; margin:0px; }
 table{text-align:center; color: white;}
+th{padding: 5px 0px;}
+td{padding: 3px 10px;}
+
 
 /* Scroll-bar Specifics */
 ::-webkit-scrollbar {

@@ -1,11 +1,11 @@
 /* General Styling */
-body{background:black; color: blue; font:24px/48px Tahoma, sans-serif; margin:0;}
-p{color: blue; font-size:20px}
-a{color:#7D00FF; font-size:20px}
-div, h1, h2, h3, h4, img{color: blue; padding:0px; margin:0px; font-weight:bold;}
+body{background:black; color: white; font:24px/48px Tahoma, sans-serif; margin:0;}
+p{color: white; font-size:20px}
+a{color:gray; font-size:20px}
+div, h1, h2, h3, h4, img{color: white; padding:0px; margin:0px; font-weight:bold;}
 ul{list-style-type: none; padding:0px; margin:0px;}
-table{text-align:center; width:1000; height:500; background:#000000;}
-form{color: blue; font-size:20px}
+table{text-align:center; width:1000; padding-top: 50px; background:#000000;}
+form{color: white; background:black; font-size:20px}
 
 /* Scroll-bar Specifics */
 ::-webkit-scrollbar {
