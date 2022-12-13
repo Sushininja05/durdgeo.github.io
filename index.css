@@ -2,6 +2,7 @@
 body{padding:0px; margin:0px; background:black; color:white; font:10px/14px Tahoma, sans-serif; }
 div, p, ul, h2, h3, h4, img{padding:0px; margin:0px;}
 ul{list-style-type:none;}
+article {width: 780px; padding: 0px; margin: auto; background:black;}
 
 .clear {clear: both; margin: 0px}
 p span.headline{font:12px/14px "Times New Roman", Times, serif; color:white; font-weight:bolder;}
