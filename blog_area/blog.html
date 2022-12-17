@@ -27,7 +27,6 @@ if (this.readyState == 4 && this.status == 200) {
         
    document.getElementById("last").onclick = () => loadPage(1,n);
    document.getElementById("prev").onclick = () => loadPage(id - 1,n);
-   document.getElementById("all").onclick = () => loadPage(locator,n);
    document.getElementById("next").onclick = () => loadPage(id + 1,n);
    document.getElementById("first").onclick = () => loadPage(n,n);
    
