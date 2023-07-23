@@ -63,7 +63,7 @@ p span.headline{font:12px/14px "Times New Roman", Times, serif; color:white; fon
 iframe.news { border-style: double; border-color: black; border-width: 0px;}
 
 /* GAMES */
-#games{width:775px; height:151px; position:relative; background:url(images/b_new.jpg) 0 0 repeat; margin: 0 auto; clear:both}
+#games{width:775px; height:131px; position:relative; margin: 0 auto; clear:both}
 #games h2{height:80px; width:180px; position:relative; float:left; display:inline; margin:10px 23px 0 40px;}
 .newgame{width:225px; float:left; margin:7px 30px 0 0; display:block}
 .newgame img{float:left; border:black 4px solid; margin-right:15px; }
