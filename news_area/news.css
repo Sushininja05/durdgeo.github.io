@@ -9,6 +9,13 @@ form{color: white; background:black; font-size:20px}
 th{padding: 5px 0px;}
 td{padding: 3px 10px;}
 
+/* News Image */
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /* Scroll-bar Specifics */
 ::-webkit-scrollbar {
     width: 6px;
