@@ -24,7 +24,7 @@ p span.headline{font:12px/14px "Times New Roman", Times, serif; color:white; fon
 #header ul li.games a{width:107px; height:42px; display:block; background:url(images/btn_games.gif) 0 0 no-repeat; text-indent:-20000px; }
 #header ul li.games a:hover{width:107px; height:42px; background:url(images/btn_games_over.gif) 0 0 no-repeat;}
 
-#header ul li.break{width:5px; height:19px; display:block; background:url(images/btn_break.gif) 0 7px no-repeat; }
+#header ul li.break{width:5px; height:19px; display:block;}
 
 /* CONTENT */
 
