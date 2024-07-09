@@ -1,0 +1,32 @@
+body {
+	background: url(bg.jpg) no-repeat;
+	background-size: cover;
+	background-color: black;
+	color: #00EE3F;
+	text-align: center;
+	font-family: arial;
+
+}
+
+h1,h2,h3,h4,p {margin: 5px; background-color: blue; font-family: times,serif; text-align: center; background-image: url(heading.jpg) }
+
+a.g:link, a.g:visited {	
+	display: block;
+	font-size: large;
+	font-family: courier new, monospace;
+	color: white;
+	text-decoration: none;
+	box-shadow: fuchsia 0px 0px 24px inset;
+}
+
+a.g:hover, a.g:active {
+	color: black;
+	text-shadow: 1px -1px black;
+	background-image: url("linkbg.jpg");
+	box-shadow: orange 0px 0px 24px inset;
+	
+}
+
+hr {border: 0; height: 2px; background-image: linear-gradient(to right, black, fuchsia, black);}
+
+table, td {padding: 0;}

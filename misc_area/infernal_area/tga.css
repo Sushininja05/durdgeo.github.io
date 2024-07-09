@@ -1,0 +1,4 @@
+html,body {
+    background: url(bg_tga.jpg) no-repeat center center fixed;
+    background-size: cover;
+}

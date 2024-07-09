@@ -18,13 +18,9 @@ var advicelist=[
 
 "Used to live on the index page some time ago.",
 
-"It's been awhile since I've seen a traveller like you, are you searching for the vault key? Try the new games.",
-
-"The Durdge-o Land is not like it once was, although I'm not sure if that's a bad thing...",
-
 "The world is full of obvious things.",
 
-"It's been awhile since I've seen a traveller like you, are you searching for the vault? Try the art page.",
+"Are ya looking for secrets? Try the first blog entry!",
 
 "I'm not all that useful, what are you standing around for?",
 
@@ -40,21 +36,21 @@ var advicelist=[
 
 "You know I find solace being in such a hidden little corner, you learn to appreciate the leaves on your branches.",
 
-"I think people could do with a little more living, most are too scared to enjoy what's there to begin with.",
-
 "Have you heard of Mojibake? It's a term for garbled text that comes through when computers read characters from a different locale. Mainly Japanese to English, I always found it off putting.",
 
 "Have you played Wario Land? It's a great series, but I'd only recommend the 4th one to newcomers.",
 
 "It's pretty hard to find good freeware these days, but if you ever get the chance there's occasionally good stuff on itch.io if you know what to look for. I have <a href='https://itch.io/c/332582/my-faves' style='font-size:9; text-align: center;'>a list</a> if you wanna give any a shot.",
 
-"You should try <a href='https://adriendittrick.itch.io/9-10-do-nightmare' style='font-size:9; text-align: center;'>Nintendo Nightmare</a>, it's insanely rough but you'll love it by the end.",
+"You should try <a href='https://adriendittrick.itch.io/9-10-do-nightmare' style='font-size:9; text-align: center;'>Nintendo Nightmare</a> if you love weird little games, it's insanely rough but you'll love it by the end.",
 
 "Have you ever played <a href='https://www.youtube.com/watch?v=RE7cFOSgIV4' style='font-size:9; text-align: center;'>Umihara Kawase?</a> They're great games.",
 
-"<a href='https://www.youtube.com/watch?v=6YQ6vlEE7NE' style='font-size:9; text-align: center;'>...</a>",
+"Sonic Adventure is one of my favorite games, <a href='https://www.youtube.com/watch?v=6YQ6vlEE7NE' style='font-size:9; text-align: center;'>I always loved the mirror room section.</a> Such great music.",
 
-"<a href='../blog_area/blog.html' style='font-size:9; text-align: center;' title='Going back to my stories..'>Oh yeah, you can go if you want. Didn't mean to talk your ear off y'kno!</a>",
+"Irisu Syndrome is one of my favorite games, please, listen to its <a href='https://www.youtube.com/watch?v=p88-IvZ613U&list=PLcSmr4zYz7hY-CGAxfabw3Dk9v313BT8X&index=2' style='font-size:9; text-align: center;'>OST.</a>",
+
+"<a href='password.html' style='font-size:9; text-align: center;' title='Going back to my stories..'>Oh yeah, you can go if you want. Didn't mean to talk your ear off y'kno!</a>",
 ]; 
 			
 var advice=advicelist[Math.floor(Math.random()*advicelist.length)]; 
