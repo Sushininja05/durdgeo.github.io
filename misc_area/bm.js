@@ -30,7 +30,7 @@ var advicelist=[
 
 "Everyone has a summer they want to remember.",
 
-"Y'kno it's kind of a miracle that you found me with how hidden I am, thanks for the listen, ya hear?",
+"Y'kno it's kind of a miracle that you found me with how out of the way I am. Thanks for the listen, ya hear?",
 
 "Can't be a has-been if I'm a never-was.",
 
@@ -50,7 +50,11 @@ var advicelist=[
 
 "Irisu Syndrome is one of my favorite games, please, listen to its <a href='https://www.youtube.com/watch?v=p88-IvZ613U&list=PLcSmr4zYz7hY-CGAxfabw3Dk9v313BT8X&index=2' style='font-size:9; text-align: center;'>OST.</a>",
 
-"<a href='password.html' style='font-size:9; text-align: center;' title='Going back to my stories..'>Oh yeah, you can go if you want. Didn't mean to talk your ear off y'kno!</a>",
+"I love museums, they've just got this other-worldly quality to them. Something that takes you out of your current place in time.",
+
+"I move around a lot, it's weird to think how many places I've been in the last few years.",
+
+"<a href='../art_area/art.html' style='font-size:9; text-align: center;' title='Going back to my stories..'>Oh yeah, you can go if you want. Didn't mean to talk your ear off y'kno!</a>",
 ]; 
 			
 var advice=advicelist[Math.floor(Math.random()*advicelist.length)]; 

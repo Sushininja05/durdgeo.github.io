@@ -1,7 +1,7 @@
     function checkPswd() {
         var confirmPassword = "the_great_vault";
         var confirmPassword2 = "infernal";
-        var confirmPassword3 = "BUSHMAN";
+        var confirmPassword3 = "bman_ark";
 		
         var password = document.getElementById("pswd").value;
         if (password == confirmPassword) {
@@ -11,6 +11,6 @@
              window.location="infernal_area/index.html";
         }
         if (password == confirmPassword3) {
-             window.location="bushman.html";
+             window.location="bman archive.html";
         }
     }
